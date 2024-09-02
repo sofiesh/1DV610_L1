@@ -1,0 +1,17 @@
+{
+  "name": "l1",
+  "version": "1.0.0",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "Sofie Swagemakers Herou",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ascii-art-table": "^1.0.0",
+    "ascii-text-converter": "^1.0.7"
+  }
+}
