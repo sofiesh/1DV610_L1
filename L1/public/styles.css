@@ -3,20 +3,27 @@
 html {
     position: relative;
     min-height: 100%;
-  }
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #8ab5e9;
-  background-image: linear-gradient(to bottom right, #629fe9, #fad0c4);
 }
 
-  main {
+/* Body styling reused from my own project in 1DV026 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8ab5e9;
+    background-image: linear-gradient(to bottom right, #629fe9, #fad0c4);
+}
+
+main {
     flex-direction: column;
-  }
+}
+
+button {
+    background-color: rgb(237, 185, 237);
+    border-radius: 5px;
+    border-color: violet;
+}

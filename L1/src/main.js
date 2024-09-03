@@ -6,10 +6,12 @@
 document.getElementById('convertButton').addEventListener('click', () => {
     const name = document.getElementById('nameInput').value
 
-    const asciiArt = name
+    // console.log("Button clicked!")
+
+    const asciiName = name
         .split('')
         .map(char => char.charCodeAt(0))
         .join(' ')
 
-    document.getElementById('asciiOutput').textContent = asciiArt
+    document.getElementById('asciiOutput').textContent = asciiName
 })
