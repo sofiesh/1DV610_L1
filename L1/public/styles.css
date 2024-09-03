@@ -1,0 +1,22 @@
+/* Styling */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8ab5e9;
+  background-image: linear-gradient(to bottom right, #629fe9, #fad0c4);
+}
+
+  main {
+    flex-direction: column;
+  }
