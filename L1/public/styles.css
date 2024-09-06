@@ -39,11 +39,12 @@ main {
 }
 
 #poemOutput {
-    width: 300px;
+    width: 400px;
     height: 200px;
-    white-space: normal;
-    overflow-wrap: break-word;
-    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-wrap: break-word;
+    overflow-y: auto;
 }
 
 #zooAnimal {
