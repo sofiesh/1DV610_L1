@@ -22,6 +22,38 @@ main {
     flex-direction: column;
 }
 
+#asciiName {
+    background-color: rgb(247, 247, 207);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#generatePoem {
+    background-color: rgb(244, 198, 250);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#poemOutput {
+    width: 300px;
+    height: 200px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+
+#zooAnimal {
+    background-color: rgb(190, 246, 203);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
 button {
     background-color: rgb(237, 185, 237);
     border-radius: 5px;

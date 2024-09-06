@@ -1,21 +1,48 @@
 <!-- index.html -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <title>Assignment L1</title>
-  </head>
-  <body>
-    <div id="main">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Assignment L1</title>
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body>
+  <div id="main">
     <h1>Assignment L1</h1>
+    <div id="asciiName">
     <p>What's your name?</p>
     <input type="text" id="nameInput" placeholder="Enter your name">
     <button id="convertButton">Submit</button>
     <p>ASCII output:</p>
     <pre id="asciiOutput"></pre>
-</div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
- </html>
+    </div>
+
+    <div id="generatePoem">
+      <p>Enter name and get your daily poem</p>
+      <input type="text" id="poemNameInput" placeholder="Enter your name">
+      <button id="generatePoemButton">Generate poem</button>
+      <pre id="poemOutput"></pre>
+      </div>
+
+    <div id="zooAnimal">
+      <p>Search information about an animal:</p>
+      <input type="text" id="animalInput" placeholder="Enter animal">
+      <button id="animalSearchButton">Submit</button>
+      <p>Output:</p>
+      <pre id="animalOutput"></pre>
+
+      <template id="animal-search-template">
+        <div class = "animal">
+          <h2 class="animal-name"></h2>
+          <p class="animal-description"></p>
+          <img class="animal-image" src="" alt="">
+      </template>
+      </div>
+  </div>
+</body>
+
+</html>
